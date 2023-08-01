@@ -6,8 +6,10 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 from dotenv import load_dotenv
 import streamlit as st
+import os
 
 
+os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 load_dotenv()
 # 1.矢量化数据
