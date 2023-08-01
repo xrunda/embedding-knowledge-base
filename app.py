@@ -6,7 +6,6 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 from dotenv import load_dotenv
 import streamlit as st
-OPENAI_API_KEY='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'
 load_dotenv()
 # 1.矢量化数据
 loader = CSVLoader(file_path="updated_magical_book.csv")
