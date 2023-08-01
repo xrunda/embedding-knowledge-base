@@ -4,4 +4,4 @@ python-dotenv==1.0.0
 streamlit==1.18.1
 openai==0.27.6
 tiktoken==0.4.0
-faiss-cpu==1.74
+faiss==1.74
