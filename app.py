@@ -56,9 +56,9 @@ message = """
 # 5.创建一个应用使用streamlit框架
 def main():
     st.set_page_config(
-        page_title="Customer response generator",page_icon=":bird:")
+        page_title="魔法童话书智能客服",page_icon="🔮"")
 
-    st.header("Customer response generator :bird:")
+    st.header("魔法童话书智能客服 🔮")
     message = st.text_area("customer message")
 
     if message:
